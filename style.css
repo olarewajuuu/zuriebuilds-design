@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(230, 228, 228);
+}
+.navbar{
+    display: flex;
+    background-color: #fff;
+    width: 1000px;
+    height: 50px;
+    margin-left: 150px;
+    text-align: center;
+   
+
+}
+
+.details{
+    display: flex;
+    list-style-type: none;
+
+}
+
+
+.details li{
+    padding-right: 40px;
+
+
+}
+
+.logo{
+    padding-left: 100px;
+}
+
+.signup{
+    background-color: blueviolet;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+.house img{
+    width: 500px;
+    height: 500px;
+    /* width: 51%; */
+    margin-left: 820px;
+    margin-top: 40px;
+}
+
+.main{
+    /* border: 2px solid; */
+    width: 300px;
+    margin-top: -500px;
+    margin-left: 280px;
+}
+
+span{
+    color: blueviolet;
+}
+
+.footer{
+    display: flex;
+    
+}
+
+.footer1{
+    margin-right: 30px;
+
+}
+.footer2{
+    margin-right: 30px;
+
+}
+
+.details li:hover{
+    background-color: blueviolet;
+    height: 25px;
+    padding-right: -40px;
+    border-radius: 5px;
+ 
+}
+
+.signup:hover{
+    color: blueviolet;
+    height: 30px;
+    width: 140px;
+    background-color:  #fff;
+    border: 2px solid blueviolet;
+   
+}
+
+.logo:hover{
+    color: blueviolet;
+
+}
